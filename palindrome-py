@@ -1,0 +1,6 @@
+def is_palindrome(s):
+    s = s.lower().replace(" ", "")
+    return s == s[::-1]
+
+text = input()
+print(is_palindrome(text))
